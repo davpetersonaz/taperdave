@@ -1,0 +1,28 @@
+Endoplasmic
+07-31-12
+The Sail Inn
+Tempe, AZ
+https://my.pcloud.com/publink/show?code=XZp8se7ZjwtzJNUy9lyid6THHlWSGQbtMrSV
+
+[show] (94:02)
+set 1:
+1. //jam (23:37)
+2. jam (10:54)
+set 2:
+3. jam (21:43)
+4. jam > (11:43)
+5. jam (12:43)
+6. jam (13:22)
+
+The Band:
+Sean Kerlin - guitar, drums
+Jayson Johnson - guitar
+Steve Allen - guitar
+Mike Roberts - keyboards, drums, guitar
+Dave Wright - bass
+Kevin Gordon - drums, bass, keyboards
+Dan Bieber - keyboards
+
+source: SBD + ZoomH4n internal microphones > sd card > audacity > you
+editing: phase-adjusted by 3 frames, amplified AUD +3, amplified SBD -2
+taper: davpeterson

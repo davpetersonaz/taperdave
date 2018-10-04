@@ -1,0 +1,15 @@
+Spafford
+01-11-13
+The Sail Inn
+Tempe, AZ
+https://my.pcloud.com/publink/show?code=XZdNue7Z7o7dTDufyjB8OrBfwgE92QvtvzlV
+
+[show] (59:08)
+1. Take That Home (16:06)
+2. Weasel (15:10)
+3. Leave the Light On > (19:47)
+4. Land Down Under (8:05)
+
+source: SBD + ZoomH4n internal mics > sd card > Audacity > flac > you
+taper: davpeterson
+editing: phase-adjusted by 6 frames, amplified SBD +12, amplified AUD +2, dithered.

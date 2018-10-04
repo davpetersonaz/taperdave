@@ -1,0 +1,25 @@
+Endoplasmic
+08-05-12
+The Sail Inn
+Tempe, AZ
+https://my.pcloud.com/publink/show?code=XZUnue7Z9uifdWeSJchjw9RRa8speFOvVwzk
+
+[show] (41:05)
+1. jam > (17:24)
+2. jam (9:31)
+3. jam (14:10)
+
+only first set recorded, opening for delta nove.
+
+The Band:
+Kevin Gordon
+Dan Bieber
+Steve Allen
+Jayson Johnson
+Mike Roberts
+Bill Bezell
+Dave Wright
+
+source: SBD + ZoomH4n internal mics > sd card > audacity > flac > you
+editing: phase-adjusted by 3 frames, amplified AUD by +3, then MATRIX amplified by +1, dithered.
+taper: davpeterson

@@ -1,0 +1,19 @@
+Octopus Nebula
+09-16-12
+The Sail Inn
+Tempe, AZ
+https://my.pcloud.com/publink/show?code=XZxAue7ZItg5Y8psqL5dcWVJ4Lqi4YpvgdFk
+
+[show] (58:51)
+1. ...banter... (0:12)
+2. unknown (6:18)
+3. unknown (10:20)
+4. unknown (6:56)
+5. unknown (8:03)
+6. unknown (10:51)
+7. unknown (8:07)
+8. unknown (8:02)
+
+source: SBD + ZoomH4n internal mics > sd card > Audacity > flac > you
+taper: davpeterson
+editing: soundguy messes with their levels throughout the show, he also nixed the right channel at the begining, so i had to copy the left channel into the right channel, then amplified AUD +5 and SBD +3, and phase adjusted by 3 frames before dithering the 2 sources..

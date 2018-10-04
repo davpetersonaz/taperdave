@@ -1,0 +1,34 @@
+Endoplasmic
+07-03-12
+The Sail Inn
+Tempe, AZ
+https://my.pcloud.com/publink/show?code=XZ58se7ZDIdLuFsF3n4lmRC5RkbVYfaQxBok
+
+[show] (109:45)
+set 1:
+1. //jam (5:30)
+set 2:
+2. jam (23:57)
+3. ...tuning... (4:33)
+4. jam # (12:09)
+5. jam #* (12:16)
+set 3:
+6. ...banter... (1:24)
+7. jam (17:49)
+8. jam (18:08)
+9. jam (13:59)
+
+The Band:
+Kevin Gordon - drums, voice
+Mike Roberts - keyboards
+Steve Allen - guitar
+Jayson Johnson - guitar
+Dave Wright - bass
+Sean Kerlin - guitar
+
+# with Chris Losey (MojoFarmers) on lap steel guitar, and Paul Zed? (Noodles) on bass.
+* with Nick Constable on drums.
+
+source: SBD + ZoomH4n internal microphones > sd card > audacity > you
+mix: amplified AUD +3, SBD -1, phase adjusted, dithered.
+taper: davpeterson

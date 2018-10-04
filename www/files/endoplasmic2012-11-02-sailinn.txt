@@ -1,0 +1,21 @@
+Endoplasmic
+11-02-12
+The Sail Inn
+Tempe, AZ
+https://mega.nz/#!ZF0TwJ6C!cnpQ7R-9KoN5jVNQzBCIpiNQUaMasIp2YF2q8JErKaI
+
+[show] (56:25)
+1. jam (17:26)
+2. jam *# > (9:08)
+3. jam # > (9:47)
+4. jam # > (7:52)
+5. jam # (12:12)
+
+opening for Euphorquestra.
+
+* some windnoise can be heard a couple minutes into the track.
+# with the sax player from Euforquestra.
+
+source: SBD + ZoomH4n internal microphones > sd card > audacity > you
+editing: had to decrease the AUD source by 6db for half a minute in track02 due to some termporary noise, could've been someone walking directly in front of the Zoom.  then amplified the AUD source by +9, and the SBD source by +7.
+taper: davpeterson

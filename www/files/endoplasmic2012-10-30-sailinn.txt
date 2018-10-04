@@ -1,0 +1,31 @@
+Endoplasmic
+10-30-12
+The Sail Inn
+Tempe, AZ
+https://my.pcloud.com/publink/show?code=XZf8se7ZY2QuQHDJRPm9mtwdaDx4RhKpwCAV
+
+[show] (80:33)
+set 1:
+1. jam (27:38)
+2. jam (10:02)
+set 2:
+3. jam > (8:36)
+4. jam # (18:06)
+5. jam (16:11)
+
+The Band:
+Kevin Gordon
+Steve Allen
+Jayson Johnson
+Dan Bieber
+Mike Roberts
+Dave Wright
+Bill Bezell
+
+# someone was generating alot of feedback in the last few minutes of this jam.
+
+source: zoomH4n internal microphones > sd card > audacity > you
+location: placed the zoom at the front of the stage.
+notes: the band played "garage-style" (no p.a.) in the outdoor bandshell.
+editing: amplified the entire thing by +5 before dithering.
+taper: davpeterson

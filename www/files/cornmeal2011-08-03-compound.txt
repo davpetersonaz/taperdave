@@ -1,0 +1,31 @@
+Cornmeal
+08-03-11
+The Compound Grill
+Phoenix, AZ
+https://my.pcloud.com/publink/show?code=XZGLse7ZS5iVydX7GXu7F1l5rwDu8QLFIks7
+
+[show] (104:43)
+1. ...tuning... (0:43)
+2. Run Away and Hide (11:22)
+3. Pages of My Life (5:31)
+4. I Wish I Was a Mole in the Ground (8:54)
+5. The Girl I Left Behind (4:25)
+6. On My Own (9:34)
+7. This Old Town > (6:27)
+8. Drinking Away the Memory of You  (5:55)
+9. Watching the Wheels > (4:33)
+10. Onward > (17:23)
+11. Girl with Short Brown Hair (7:56)
+encore: 
+12. ...tuning... (4:37)
+13. Lay Down Sally *  (12:36)
+14. How Mountain Girls Can Love # (4:47)
+
+# with everyone from Greensky Bluegrass (the opener) and Cornmeal onstage.
+
+source: MBHO 603b/KA200N > Tascam DA-P2 > zoomH4N > audacity > you
+taper: davpeterson
+
+thanks to Brian Hormann and Matt Varaday for allowing me to patch in.
+
+note: there were clicks in the right channel, i ran click-removal in Audacity.  it didn't remove them all so i had to manually "smooth out" the rest of the clicks. -davpeterson

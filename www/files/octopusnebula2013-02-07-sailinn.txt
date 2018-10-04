@@ -1,0 +1,23 @@
+Octopus Nebula
+02-07-13
+The Sail Inn
+Tempe, AZ
+https://my.pcloud.com/publink/show?code=XZMuse7ZgzRd6F8ESU8BkoUn7Gss4XxpLpY7
+
+[show] (86:52)
+1. unknown (6:41)
+2. unknown (7:25)
+3. unknown (7:01)
+4. unknown (7:21)
+5. unknown (10:28)
+6. unknown (6:28)
+7. unknown (7:48)
+8. unknown (7:00)
+9. unknown (6:23)
+10. unknown (11:58)
+encore: 
+11. unknown (8:19)
+
+taper: davpeterson
+source: SBD + ZoomH4n internal mics > sd card > audacity > flac > you
+mix: phase-adjusted by 3 frames, amplified AUD right channel +5, then amplified the entire AUD source +6, amplified SBD -6 (it was clipped), dithered.

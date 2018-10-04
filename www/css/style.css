@@ -1,0 +1,203 @@
+body{
+	width: 100%;
+	height: 100%;
+}
+/* common functions */
+.full-height{
+	height: 100%;
+}
+.full-width{
+	width: 100%;
+}
+/* Sticky footer styles */
+html{
+	min-height: 100%;
+	position: relative;
+}
+body{
+	background-color: #FDFDFD;
+	margin-bottom: 60px; /* Margin bottom by footer height */
+}
+body > .container-fluid{
+	margin-top: 60px; /* height of footer */
+	height: 100%;
+}
+.footer{
+	/*background-color: #f8f8f8;*/
+	bottom: 0;
+	color: white;
+	height: 60px; /* Set the fixed height of the footer here */
+	line-height: 60px; /* Vertically center the text there */
+	position: absolute;
+	width: 100%;
+}
+.footer > .container{
+	padding-right: 15px;
+	padding-left: 15px;
+}
+/* navbar hidden dropdown */
+#navbarCollapse .dropdown:hover > .dropdown-menu{
+	display: block;
+}
+#navbarCollapse .dropdown > .dropdown-toggle:active{
+	pointer-events: none; /* clicking will make it sticky without this */
+}
+#navbarCollapse .btn,
+#navbarCollapse .btn-primary{
+	background-color: inherit;
+	border: none;
+	border-radius: 0;
+}
+/* home page */
+.home_page > .feature_image{
+	margin-left: -15px;
+	margin-right: -15px;
+	overflow: hidden;
+}
+.home_page > .feature_image > img{
+	/* spacing */
+	margin-top: 8px;
+	margin-bottom: 20px;
+	/* full image height on all screens no matter how wide */
+	height: 100%;
+	/* this centers the full image */
+	margin-left: 50%;
+	transform: translateX(-50%);
+	/* this add the fancy-border */
+	border-top: black 3px solid;
+	border-bottom: black 3px solid;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.home_page .intro{
+	margin-bottom: 20px;
+}
+.home_page .intro p{
+	text-align: left;
+}
+.home_page .artist_icons .row h3,
+.home_page .artist_icons .row p{
+	text-align: center;
+	width: 100%;
+}
+.home_page .artist_icons .thumbnail{
+	height: 100%;
+	line-height: 150px; /* height taken from OPs plunker */
+	margin: 0.5em;
+	text-align: center;
+	vertical-align: middle;
+}
+.home_page .artist_icons .thumbnail a{
+	vertical-align: middle;
+}
+.home_page .artist_icons .thumbnail a img{
+	border: 2px black solid;
+	display: inline-block;
+	margin: auto;
+	max-height: 12em;
+	max-width: 100%;
+	vertical-align: middle;
+}
+/* show-list page */
+div.showlist{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	/*width: 100%;*/
+}
+div.showlist > h1{
+	font-family: 'font-family:Aperçu, "ITC Johnston", "Questa Sans", Maple, "Brezel Grotesk", "Courier New"';
+	padding-top: 0.5em;
+}
+div.showlist .internalAnchorSpan{
+	padding-top: 3em;
+}
+div.showlist img{
+	margin-left: auto;
+	margin-right: auto;
+}
+div.showlist div.showlist-anchor{
+	margin-top: 2em;
+}
+div.showlist div.show-block{
+	padding-top: 1.5em;
+/*	text-align: center;
+	width: 100%;*/
+}
+div.showlist div.show-block h2,
+div.showlist div.show-block h3,
+div.showlist div.show-block img{
+	margin-bottom: 0.5em;
+}
+div.showlist div.show-block img{
+	/*border: 1px black solid;*/
+	/*border-radius: 1px;*/
+}
+div.showlist div.show-block p{
+	margin-bottom: 0; /* negate _reboot.css */
+}
+div.showlist div.show-block a{
+	color: black;
+}
+div.showlist div.show-block a:hover{
+	color: grey;
+}
+div.showlist div.show-block > ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+.regenerate-shows{
+	float: right;
+	margin-bottom: 70px; /* height of footer */
+}
+.regenerate-shows > .btn:focus{
+	border: none;
+	box-shadow: none;
+	color: white;
+	z-index: 99;
+}
+.regenerate-shows button{
+	color: white;
+}
+.up-button-div{
+	bottom: 94%;
+}
+#up-button{
+	background-color: black !important;
+	border: none;
+	bottom: 120px;
+	color: white;
+	cursor: pointer;
+	display: none;
+	outline: none;
+	position: fixed;
+	right: 30px;
+	z-index: 99;
+}
+.up-button-div > .btn:focus{
+	box-shadow: none;
+}
+.showinfo .row{
+	padding-bottom: 1em;
+}
+.showinfo a.megalink{
+	text-decoration: underline;
+}
+.showinfo a{
+	color: black;
+}
+.showinfo audio{
+}
+.showinfo img{
+	margin: 1em;
+}
+.showinfo .left-side,
+.showinfo .right-side{
+	padding-top: 1em;
+}
+.showinfo .left-side > div{
+	float: right;
+}
+.showinfo .right-side{
+	float: left;
+}
