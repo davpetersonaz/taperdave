@@ -94,10 +94,15 @@ class ReadShowFiles{
 					$showInfo['city'] = substr($showInfo['city_state'], 0, $pos);
 				}
 				logDebug('city: '.$showInfo['city']);
-				$showInfo['megalink'] = trim(fgets($handle));//MEGA link or blank line
-				logDebug('megalink: '.$showInfo['megalink']);
-				if(!empty($showInfo['megalink'])){
-					fgets($handle);//blank line
+				
+				//pcloud/archive links, or blank line
+				while($possibleLink = trim(fgets($handle)) !== ''){
+					logDebug('pcloudlink: '.$possibleLink);
+					if(strpos($possibleLink, 'my.pcloud.com') !== false || strpos($possibleLink, 'mega.nz') !== false){
+						$showInfo['pcloudlink'] = $possibleLink;
+					}elseif(strpos($possibleLink, 'archive.org') !== false){
+						$showInfo['archivelink'] = $possibleLink;
+					}
 				}
 				
 				//get setlist and sourceinfo

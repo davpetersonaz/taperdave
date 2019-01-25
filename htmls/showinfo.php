@@ -31,7 +31,8 @@ $artistLogo = Func::getLogoFile($artist, '/images/artists/square/');
 $artistLogo = ($artistLogo ? '<img src="'.$artistLogo.'" class="img img-responsive">' : '<h2>'.$artist.'</h2>');
 $venueLogo = Func::getLogoFile($show['venue'], '/images/venues/');
 $venueLogo = ($venueLogo ? '<img src="'.$venueLogo.'" class="img img-responsive">' : '<h2>'.$show['venue'].'</h2>');
-$megalink = ($show['megalink'] ? "<p><a href='{$show['megalink']}' class='megalink' target='_blank'>Link to MP3 Download</a></p>" : '');
+$pcloudlink = ($show['pcloudlink'] ? "<p><a href='{$show['pcloudlink']}' class='pcloudlink' target='_blank'>Link to MP3 Download on pCloud</a></p>" : '');
+$archivelink = ($show['archivelink'] ? "<p><a href='{$show['archivelink']}' class='archivelink' target='_blank'>Hi-Quality Download and Streaming on archive.org</a></p>" : '');
 $sampleFilename = Func::getSampleFilename($artist, $showdate, $source);
 $sampleFilename = ($sampleFilename ? "<p>sample<br /><audio controls><source src='/{$sampleFilename}' type='audio/mpeg'>Your browser does not support the audio element.</audio></p>" : '');
 ?>
@@ -42,7 +43,8 @@ $sampleFilename = ($sampleFilename ? "<p>sample<br /><audio controls><source src
 							<?=$artistLogo?><br />
 							at<br />
 							<?=$venueLogo?>
-							<?=$megalink?>
+							<?=$pcloudlink?>
+							<?=$archivelink?>
 							<?=$sampleFilename?>
 						</div>
 					</div>

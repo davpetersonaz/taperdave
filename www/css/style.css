@@ -180,7 +180,8 @@ div.showlist div.show-block > ul{
 .showinfo .row{
 	padding-bottom: 1em;
 }
-.showinfo a.megalink{
+.showinfo a.pcloudlink,
+.showinfo a.archivelink{
 	text-decoration: underline;
 }
 .showinfo a{

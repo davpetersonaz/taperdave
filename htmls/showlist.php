@@ -72,13 +72,14 @@ function displayShows($shows, $sortingField, $showListingValues, $sources){
 //			$listingValue1 = ($sortingField === 'showdate' ? date("n/j/y", strtotime($show[$showListingValues[1]])) : $show[$showListingValues[1]]);
 //			$listingValue2 = ($sortingField === 'source' ? $sources[$show[$showListingValues[2]]] : $show[$showListingValues[2]]);
 			logDebug('listing_values: '.$listingValue0.' '.$listingValue1.' '.$listingValue2);
-			$downloadIcon = (!empty($show['megalink']) ? " <a href='".$show['megalink']."' target='_blank'><span class='fas fa-file-download' title='link to mp3 files'></span></a>" : '');
+			$downloadIcon = (!empty($show['pcloudlink']) ? " <a href='".$show['pcloudlink']."' target='_blank'><span class='fas fa-file-download' title='Link to MP3 Download on pCloud'></span></a>" : '');
+			$archiveIcon = (!empty($show['archivelink']) ? " <a href='".$show['archivelink']."' target='_blank'><span class='fas fa-file-archive' title='Hi-Quality Download and Streaming on archive.org'></span></a>" : '');
 			$sampleIcon = (!empty($show['samplefile']) ? " <a href='".$show['samplefile']."' target='_blank'><span class='fas fa-play' title='sample audio file'></span></a>" : '');
 			$artist = urlencode($show['artist']);
 			logDebug('encoded artist: '.$artist);
 ?>
 							<li class=''>
-								<p><a href='/showinfo/<?=$artist?>/<?=$show['showdate']?>/<?=$show['source']?>' target='_blank'><?=$listingValue0?> - <?=$listingValue1?> - <?=$listingValue2?> <?=$downloadIcon?> <?=$sampleIcon?></a></p>
+								<p><a href='/showinfo/<?=$artist?>/<?=$show['showdate']?>/<?=$show['source']?>' target='_blank'><?=$listingValue0?> - <?=$listingValue1?> - <?=$listingValue2?> <?=$downloadIcon?> <?=$archiveIcon?> <?=$sampleIcon?></a></p>
 							</li>
 <?php
 		endforeach;
