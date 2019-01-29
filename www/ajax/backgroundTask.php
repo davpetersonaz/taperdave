@@ -2,8 +2,7 @@
 include('../../config.php');
 logDebug('backgroundTask');
 
-//TODO: REMOVE AT SOME POINT
-//$db->removeAllShows();
+//TODO: RUN THIS FROM A CRONJOB!!!!!!!
 
 $cache = new ReadShowFiles($db);
 $cache->runIt();
