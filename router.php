@@ -14,12 +14,12 @@ $page = (!empty($queryArray) ? $queryArray[0] : 'home');//shouldn't be necessary
 logDebug('page='.$page);
 
 //new way to show a show
-if(count($queryArray) > 3 && $queryArray[0] === 'showinfo'){
+if($queryArray[0] === 'showinfo' && count($queryArray) > 2){
 	$page = 'showinfo';
 }else
 
 //handle show links to the text files
-if(count($queryArray) > 1 && $queryArray[0] === 'files'){
+if($queryArray[0] === 'files' && count($queryArray) > 1){
 	file_get_contents('/'.$p);
 	exit;
 }else

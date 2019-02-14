@@ -5,9 +5,15 @@ class DB extends DBcore{
 		parent::__construct(self::HOST, self::USER, self::PASS, self::DB_TABLES);
 	}
 
-	public function getShowRecord($artist, $date, $source){
-		$params = array('artist'=>$artist, 'showdate'=>$date, 'source'=>$source);
-		$shows = $this->select('SELECT * FROM shows WHERE artist=:artist AND showdate=:showdate AND source=:source LIMIT 1', $params);
+	public function getShowRecord($artist, $date, $source=false){
+		$params = array('artist'=>$artist, 'showdate'=>$date);
+		$query = 'SELECT * FROM shows WHERE artist=:artist AND showdate=:showdate';
+		if($source){
+			$query .= ' AND source=:source';
+			$params['source'] = $source; 
+		}
+		$query .= ' LIMIT 1';
+		$shows = $this->select($query, $params);
 		return $shows[0];
 	}
 	

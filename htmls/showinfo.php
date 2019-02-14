@@ -25,27 +25,27 @@ $mp3link = false;
 			
 $artist = urldecode($queryArray[1]);
 $showdate = $queryArray[2];
-$source = $queryArray[3];
+$source = (isset($queryArray[3]) ? $queryArray[3] : false);
 $show = $db->getShowRecord($artist, $showdate, $source);
 $artistLogo = Func::getLogoFile($artist, '/images/artists/square/');
-$artistLogo = ($artistLogo ? '<img src="'.$artistLogo.'" class="img img-responsive">' : '<h2>'.$artist.'</h2>');
+$artistLogoLink = ($artistLogo ? '<img src="'.$artistLogo.'" class="img img-responsive">' : '<h2>'.$artist.'</h2>');
 $venueLogo = Func::getLogoFile($show['venue'], '/images/venues/');
-$venueLogo = ($venueLogo ? '<img src="'.$venueLogo.'" class="img img-responsive">' : '<h2>'.$show['venue'].'</h2>');
+$venueLogoLink = ($venueLogo ? '<img src="'.$venueLogo.'" class="img img-responsive">' : '<h2>'.$show['venue'].'</h2>');
 $pcloudlink = ($show['pcloudlink'] ? "<p><a href='{$show['pcloudlink']}' class='pcloudlink' target='_blank'>Link to MP3 Download on pCloud</a></p>" : '');
 $archivelink = ($show['archivelink'] ? "<p><a href='{$show['archivelink']}' class='archivelink' target='_blank'>Hi-Quality Download and Streaming on archive.org</a></p>" : '');
 $sampleFilename = Func::getSampleFilename($artist, $showdate, $source);
-$sampleFilename = ($sampleFilename ? "<p>sample<br /><audio controls><source src='/{$sampleFilename}' type='audio/mpeg'>Your browser does not support the audio element.</audio></p>" : '');
+$sampleFilenameLink = ($sampleFilename ? "<p>sample<br /><audio controls><source src='/{$sampleFilename}' type='audio/mpeg'>Your browser does not support the audio element.</audio></p>" : '');
 ?>
 			<div class='showinfo'>
 				<div class='row'>
 					<div class='col-xs-12 col-sm-6 left-side text-center'>
 						<div>
-							<?=$artistLogo?><br />
+							<?=$artistLogoLink?><br />
 							at<br />
-							<?=$venueLogo?>
+							<?=$venueLogoLink?>
 							<?=$pcloudlink?>
 							<?=$archivelink?>
-							<?=$sampleFilename?>
+							<?=$sampleFilenameLink?>
 						</div>
 					</div>
 					<div class='col-xs-12 col-sm-6 right-side'>
