@@ -1,0 +1,29 @@
+Ghost-Note
+03-08-19
+McDonald Theater
+Eugene, OR
+
+[show] (60:45)
+1. unknown (4:32)
+2. Pace Maker (7:49)
+3. Milkshake (11:33)
+4. Swagism (14:02)
+5. visiting the land of twiggle? (8:49)
+6. unknown # (5:06)
+7. unknown * (8:54)
+
+The Band:
+Robert "Sput" Searight (Snarky Puppy, Herbie Hancock, Kendrick Lamar) – drums
+Nate Werth (Snarky Puppy) – percussion
+Dwayne "MonoNeon" Thomas (Prince) – bass
+Peter Knudsen – guitar 
+Jonathon Mones - baritone sax
+Sylvester Onyejiaka (Prince, Quantic) – tenor sax, flute
+Vaughn "V.Keys" Henry – keyboards
+
+# basically a "band introduction jam".
+* with Kris Meyers and Andy Farag on their own drum and percussion kits.
+
+source: Audio-Technica AT853 cardioid condensor mics > 10' flexed mini-xlr extension cable > 4.7k modified mini-xlr-to-headphone y-cable > ZoomH5 Handy Recorder plugin-power jack > Toshiba Exceria Pro 270-mb/s 32gb SD-HC-II card > audacity > you
+location: FOB, clamped to taper-Mark's mic stand
+taper: davpeterson
