@@ -10,16 +10,22 @@
 			<!--  CONTENT COMPLETE  -->
 		</div><!-- END-container-fluid -->
 
-
 <?php include(HTMLS_PATH.'templates/footer.php'); ?>
 
 		<script>
 		$(document).ready(function(){
+			console.warn('document.ready');
 			// When the user scrolls down 20px from the top of the document, show the button
 			window.onscroll = function() {scrollFunction()};
 
 			$('.regenerate-shows button').on('click', function(){
 				$.post('/ajax/backgroundTask.php');
+			});
+
+			//tried to make the navbar menu-drop button clickable, but for some reason this doesnt get hit??
+			$('#dropdownMenuButton').on('click', function(){
+				console.warn('dropdownMenuButton click');
+				window.location.href = "/showlist.php?s=s";
 			});
 		});
 		function scrollFunction() {
@@ -34,6 +40,6 @@
 			document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 		}
 		</script>
-
+		
 	</body>
 </html>

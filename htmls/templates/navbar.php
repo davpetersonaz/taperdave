@@ -22,10 +22,3 @@
 -->
 				</div>
 			</nav>
-<script>
-$(document).ready(function(){
-	$('#dropdownMenuButton').on('click', function(){
-		location.href = "/showlist.php?s=s";
-	});
-});
-</script>
