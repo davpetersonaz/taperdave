@@ -2,6 +2,8 @@ Aqueous
 02-20-19
 WOW Hall
 Eugene, OR
+https://my.pcloud.com/publink/show?code=XZ2cKt7ZuEAor0ngfTplsFSTDm4UEjIokfV0
+https://archive.org/details/aqueous2019-02-20.AT853
 
 [show] (89:01)
 1. ...wow intro... (1:36)
@@ -15,5 +17,4 @@ Eugene, OR
 source: Audio-Technica AT853 cardioid condensor mics > 10' flexed mini-xlr extension cable > 4.7k modified mini-xlr-to-headphone y-cable > ZoomH5 Handy Recorder plugin-power jack > Toshiba Exceria Pro 270-mb/s 32gb SD-HC-II card > audacity > you
 location: FOB, 7-1/2' in the air
 taper: davpeterson
-
-SBD version of their shows are available on nugs.net.
+notes: SBD version of their shows are available on nugs.net.
