@@ -5,7 +5,7 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbarCollapse">
 					<div class="nav-item dropdown">
-						<button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ShowList</button>
+						<button href="/showlist.php?s=s" class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ShowList</button>
 						<div class="dropdown-menu">
 							<a class="dropdown-item" href="/showlist.php?s=a">Sort by Artist</a>
 							<a class="dropdown-item" href="/showlist.php?s=y">Sort by Year</a>
