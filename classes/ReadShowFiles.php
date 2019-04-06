@@ -8,6 +8,7 @@ class ReadShowFiles{
 	public function runIt(){
 		$this->show_file_names = scandir(self::TXT_FILES_DIR);
 		logDebug('running ReadShowFiles');
+		$this->db->removeAllShows();
 		foreach($this->show_file_names as $file){
 			if($file === '.' || $file === '..'){ continue; }
 			if(file_exists(self::TXT_FILES_DIR.$file)){
