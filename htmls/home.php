@@ -59,11 +59,11 @@ $into_offset = 'offset-sm-1 col-sm-10 offset-md-2 col-md-8 offset-lg-3 col-lg-6'
 		<div class='row'>
 			<div class='<?=$into_offset?>'>
 				<p>
-					Keep in mind some of the recordings are better than others for a variety of reasons 
+					Keep in mind some recordings are better than others for a variety of reasons 
 					(the microphones, the placement, the room, the soundguy, the amps, etc).
 					Generally, the older the recording, the higher the likelihood it might not be 'that great', 
-					In the near future I will provide samples that can be played directly from this website.
-					For your reference, the progression of equipment I used started with the ZoomH4n, then the ZoomH6 for a brief period, then the ZoomH5,
+					I have provided samples of each show so you can take a quick listen before downloading.
+					For your reference, the progression of equipment I have used started with the ZoomH4n, then the ZoomH6 for a brief period, then the ZoomH5,
 					and lately my Audio Technica 853 microphones (which provide more bass definition than the Zoom's mics).
 				</p>
 			</div>
