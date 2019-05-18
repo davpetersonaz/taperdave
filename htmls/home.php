@@ -46,7 +46,7 @@ $into_offset = 'offset-sm-1 col-sm-10 offset-md-2 col-md-8 offset-lg-3 col-lg-6'
 			<div class='<?=$into_offset?>'>
 				<p>
 					<b>I do not make money off these recordings</b>, there are no advertisements on this website, 
-					and I do not sell the recordings, or their presence on this site, in any way.
+					and I do not sell the recordings or their presence on this site in any way.
 					<em>I will never sell any live recordings without direct positive agreement with and financial compensation to the artists.</em>
 				</p>
 				<p>
