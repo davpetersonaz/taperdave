@@ -50,7 +50,7 @@ $into_offset = 'offset-sm-1 col-sm-10 offset-md-2 col-md-8 offset-lg-3 col-lg-6'
 				</p>
 				<p>
 					I will eventually put everything on 
-					<a href='http://archive.org/browse.php?mediatype=collection&collection=etree&field=%2Fmetadata%2Fcreator'>The Internet Archive</a>,
+					<a href='https://archive.org/details/@taper-dave'>The Internet Archive</a>,
 					however I'll probably be somewhat selective on that so it will happen slowly (as I catch up with backlog).
 				</p>
 			</div>
