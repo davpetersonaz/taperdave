@@ -45,8 +45,8 @@ $into_offset = 'offset-sm-1 col-sm-10 offset-md-2 col-md-8 offset-lg-3 col-lg-6'
 		<div class='row'>
 			<div class='<?=$into_offset?>'>
 				<p>
-					<b>I do not make money off of these recordings</b>, there are no advertisements on this website, and I do not sell them or their presence on this site in any other way,
-					<em>I will never sell any live recordings without direct positive agreement (and financial compensation) from/to the artists.</em>
+					<b>I do not make money off these recordings</b>, there are no advertisements on this website, and I do not sell the recordings, or their presence on this site, in any other way,
+					<em>I will never sell any live recordings without direct positive agreement with and financial compensation to the artists.</em>
 				</p>
 				<p>
 					I will eventually put everything on 
@@ -64,7 +64,7 @@ $into_offset = 'offset-sm-1 col-sm-10 offset-md-2 col-md-8 offset-lg-3 col-lg-6'
 					Generally, the older the recording, the higher the likelihood it might not be 'that great', 
 					I have provided samples of each show so you can take a quick listen before downloading.
 					For your reference, the progression of equipment I have used started with the ZoomH4n, then the ZoomH6 for a brief period, then the ZoomH5,
-					and lately my Audio Technica 853 microphones (which provide more bass definition than the Zoom's mics).
+					and lately my Audio Technica 853 microphones (which provide better bass definition and overall clarity than the Zoom's mics).
 				</p>
 			</div>
 		</div>
@@ -78,7 +78,7 @@ $into_offset = 'offset-sm-1 col-sm-10 offset-md-2 col-md-8 offset-lg-3 col-lg-6'
 					And buy their studio albums -- alot of these bands exhibit different sides of themselves in the studio vs on the road!
 					They are great people and love to get down and have a good time, 
 					and a recording can only capture <em>one</em> aspect of a band's performance, 
-					so go experience the whole thing for yourself!!
+					so go experience the <em>whole thing</em> for yourself!!
 				</p>
 			</div>
 		</div>
