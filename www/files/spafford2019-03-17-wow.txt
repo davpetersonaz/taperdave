@@ -1,0 +1,27 @@
+Spafford
+03-17-19
+WOW Hall
+Eugene, OR
+
+[show] (136:14)
+set 1: 
+1. Funkadelic > (16:40)
+2. Soul to Squeeze (4:50)
+3. Electric Taco Stand > (16:38)
+4. Virtual Bean Dip > (9:08)
+5. Electric Taco Stand (5:30)
+6. Plans (14:51)
+set 2: 
+7. ...crowd noise... (1:10)
+8. Take Your Mama (4:42)
+9. Backdoor Funk (12:16)
+10. Into The Mystic (6:47)
+11. My Road (14:09)
+12. The Postman (16:37)
+13. Hollywood (6:26)
+encore: 
+14. Shake You Loose (6:30)
+
+source: Audio-Technica AT853 cardioid condensor mics > 10' flexed mini-xlr extension cable > 4.7k modified mini-xlr-to-headphone y-cable > ZoomH5 Handy Recorder plugin-power jack > Toshiba Exceria Pro 270-mb/s 32gb SD-HC-II card > audacity > you
+location: FOB, 8' mic stand, back of the room
+taper: davpeterson
