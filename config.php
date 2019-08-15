@@ -13,7 +13,7 @@ doDefine('HTMLS_PATH', REAL_PATH.'htmls/');
 
 //setup logging
 doDefine('EOL', "\r\n");
-doDefine('DEBUG_LOG', REAL_PATH.'log/myDebug.log');
+doDefine('DEBUG_LOG', REAL_PATH.'logs/myDebug.log');
 doDefine('DEBUG_TIMESTAMP', 'D M d H:i:s');
 date_default_timezone_set('America/Los_Angeles');
 if(!function_exists('logDebug')){
@@ -49,10 +49,10 @@ $db = new DB();
 
 $sources = array();
 $sourceIdentities = $db->getSourceIdentities();
-logDebug('sourceIdentities: '.var_export($sourceIdentities, true));
+//logDebug('sourceIdentities: '.var_export($sourceIdentities, true));
 foreach($sourceIdentities as $sourceArray){
 	$sources[$sourceArray['id']] = $sourceArray['sourcetext'];
 }
-logDebug('sources: '.var_export($sources, true));
+//logDebug('sources: '.var_export($sources, true));
 
 logDebug('config complete');
