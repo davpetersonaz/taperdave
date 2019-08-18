@@ -1,0 +1,33 @@
+Big Something
+07-04-19
+High Sierra Music Festival
+Vaudeville Tent
+Quincy, CA
+
+[show] (73:35)
+1. Wildfire (10:45)
+2. i can hear - never be another (4:48)
+3. The Undertow (9:12)
+4. Truth Serum (9:42)
+5. Waves (10:26)
+6. Passenger (5:43)
+7. The Curse of Julia Brown (8:46)
+8. Star Spangled Banner # (3:01)
+9. Another Brick in the Wall pt.2 (11:12)
+
+thursday 5:30-6:45pm Vaudeville Tent
+
+The Band:
+Nick MacDaniels - vocals, guitar
+Jesse Hensley - lead guitar
+Casey Cranford - electronic wind instrument
+Josh Kagel - keyboards, trumpet
+Doug Marshall - bass
+Ben Vinograd - drums
+
+# Casey solo on the EWI.
+
+source: Audio-Technica AT853 cardioid condensor mics > 10' flexed mini-xlr extension cable > 4.7k modified mini-xlr-to-headphone y-cable > ZoomH5 Handy Recorder plugin-power jack > Toshiba Exceria Pro 270-mb/s 32gb SD-HC-II card > audacity > you
+location: FOB inside cage, 8' mic stand
+taper: davpeterson
+taper notes: minimized some digi-noises at t01-3:46 (sounds like a dropout now).
