@@ -33,3 +33,4 @@ encore:
 source: Audio-Technica AT853 cardioid condensor mics > 10' flexed mini-xlr extension cable > 4.7k modified mini-xlr-to-headphone y-cable > ZoomH5 Handy Recorder plugin-power jack > Toshiba Exceria Pro 270-mb/s 32gb SD-HC-II card > audacity > you
 location: FOB, clamped to taper-Mark's mic stand
 taper: davpeterson
+taper notes: the bass began to overload the mics at a couple spots, most noticeably in Number 5 (pt.1) and Hajimemashite.
