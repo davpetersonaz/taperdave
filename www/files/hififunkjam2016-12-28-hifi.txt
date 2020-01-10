@@ -28,7 +28,7 @@ set 3:
 The Band:
 Josh Coffey - keyboards
 James Drier - bass
-Curt - guitar
+Kurt - guitar
 Dave - sax
 Steve - sax
 Shaun Murphy - drums
@@ -37,7 +37,7 @@ Shaun Murphy - drums
 ^ with Josh on the melodica.
 * Alex Huber joins on drums, Josh takes over the keyboards.
 % Shaun Murphy rejoins on drums, James rejoins on bass, Graham rejoins on keyboards.
-@ with Curt on bass, Graham on keyboards.
+@ with Kurt on bass, Graham on keyboards.
 
 source: ZoomH5 internal mics > sd card > audacity > you
 location: placed the zoom onstage directly in front of the band.

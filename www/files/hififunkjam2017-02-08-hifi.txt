@@ -31,7 +31,7 @@ set 3:
 
 The Band:
 Sean Murphy - drums
-Curt - guitar, vocals
+Kurt - guitar, vocals
 James Dryer - bass
 Steve - sax
 Graham - keyboards
@@ -39,9 +39,9 @@ Graham - keyboards
 # Ryan joins on sax.
 * with Brian joining on the vocals, and a trumpet player (Brian?).
 % starts with afro-guitarist and deady-bassist.
-^ Curt replaces afro-guitarist (Lee?) midway.
+^ Kurt replaces afro-guitarist (Lee?) midway.
 @ Josh joins on keyboards, replacing Graham. A trumpet joins.
-! afro-guitarist rejoins, Curt moves to bass (i think).
+! afro-guitarist rejoins, Kurt moves to bass (i think).
 $ with Sean Ponder, Josh, Graham, trumpet, sax, 
 
 source: ZoomH5 internal mics > sd card > audacity > you

@@ -21,7 +21,7 @@ set 2:
 12. jam * (11:10)
 
 The Band:
-Curt - guitar
+Kurt - guitar
 Graham - keyboards
 James Dryer - bass
 Sean Murphy - drums
@@ -31,7 +31,7 @@ Karl - percussion
 
 # with Amy Jones on vocals.
 $ Alex Huber takes over on the drums.
-% Benny B joins Curtis on guitar, Shaun Murphy returns to the drums.
+% Benny B joins Kurt on guitar, Shaun Murphy returns to the drums.
 @ the long-haired bass player takes over.
 * with Amy? on vocals (i thought she left earlier). 
 

@@ -29,14 +29,14 @@ set 3:
 
 The Band:
 Josh Coffey - keyboards
-Curt - guitar, vocals
+Kurt - guitar, vocals
 James Drier - bass
 Zach - guitar
 Tim McLaughlin - trumpet
 Steve - sax
 Shaun Murphy - drums
  
-$ Curt plays the "crazy-teeth" guitar.
+$ Kurt plays the "crazy-teeth" guitar.
 # with Dan on vocals.
 * with Taylor (MC TankLove) on the mic.
 @ Josh returns to the keyboards.

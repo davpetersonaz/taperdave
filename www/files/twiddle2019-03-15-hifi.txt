@@ -1,0 +1,33 @@
+Twiddle
+03-15-19
+Hi Fi Music Hall
+Eugene, OR
+
+[show] (125:01)
+set 1: 
+1. ...tuning... (0:44) 
+2. Be There (5:12)
+3. jam? > (4:30)
+4. drums > (2:41)
+5. that's exactly what we need > (11:23)
+6. unknown (9:05)
+7. unknown (6:30)
+8. my sweet lullaby (24:00)
+set 2: 
+9. Doinkinbonk > (10:07) 
+10. unknown > (6:29) 
+11. Gatsby the Great # > (22:06)
+12. Doinkinbonk > (0:47)
+13. Too Many Puppies > (2:10) 
+14. Gatsby the Great (2:55)
+15. unknown (11:51)
+encore:
+16. Moments (4:31)
+
+# with Norwegian Wood (Beatles) teases.
+
+source: Audio-Technica AT853 cardioid condensor mics > 10' flexed mini-xlr extension cable > 4.7k modified mini-xlr-to-headphone y-cable > ZoomH5 Handy Recorder plugin-power jack > Toshiba Exceria Pro 270-mb/s 32gb SD-HC-II card > audacity > you
+location: FOB, 8' mic stand
+taper: davpeterson
+
+there is <B>no</B> sbd source from the band: http://twiddlemusic.com/releases/
