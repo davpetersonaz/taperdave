@@ -1,0 +1,23 @@
+Consider the Source
+11-15-19
+Wildcraft Ciderworks
+Eugene, OR
+https://archive.org/details/cts2019-11-15.AT853s
+
+[show] (106:43)
+1. unknown (11:25)
+2. unknown (5:28)
+3. ...technical difficulties... (3:37)
+4. It Is Known (14:16)
+5. They Call Him the Smiling Assassin (10:53)
+6. When You've Loved and Lost Like Frankie Has (7:01)
+7. You Won a Goat (10:04)
+8. All Fight for the Imp (7:24)
+9. bass solo > (6:13)
+10. unknown (12:14)
+11. Enemies of magicK (14:35)
+12. unknown (3:33)
+
+source: Audio-Technica AT853 cardioid condensor mics > 10' flexed mini-xlr extension cable > 4.7k modified mini-xlr-to-headphone y-cable > ZoomH5 Handy Recorder plugin-power jack > Transcend 700S 285-mb/s 32gb UHS-II U3 class10 V90 SDHC card > audacity > you
+location: 8' mic stand, in bar area on right side, 30' from the band
+taper: davpeterson
