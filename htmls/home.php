@@ -86,12 +86,8 @@ $into_offset = 'offset-sm-1 col-sm-10 offset-md-2 col-md-8 offset-lg-3 col-lg-6'
 	</div>
 	
 	<div class='artist_icons'>
-		<div class='row'>
-			<div class="col-xs-12">
-				<a href='https://taperdave.com/showlist.php?s=y' style='text-decoration:none;'><h3>And On to The Music!</h3></a>
-			</div>
-			<p class='text-center'>here are some of the bands I've taped the most</p>
-		</div>
+		<a href='https://taperdave.com/showlist.php?s=y' style='text-decoration:none;'><h3>And On to The Music!</h3></a>
+		<p class='text-center'>here are some of the bands I've taped the most</p>
 		
 		<div class='row'>
 
