@@ -1,4 +1,7 @@
 <?php
+
+//TODO: this could be updated to match myboydino & comics
+
 class DBcore{
 
 	function __construct($host, $user, $pass, $db_tables){
