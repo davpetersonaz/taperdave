@@ -8,7 +8,7 @@ $random_image = rand(1, count($images));
 <div class='home_page'>
 
 	<div class='feature_image'>
-		<img src='/images/home/<?=$random_image?>'>
+		<img src='/images/home/<?=$images[$random_image]?>'>
 	</div>
 
 	<div class='intro'>
