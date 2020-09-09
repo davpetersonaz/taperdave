@@ -14,8 +14,11 @@
 
 		<script>
 		$(document).ready(function(){
-//			// When the user scrolls down 20px from the top of the document, show the button (??)
-//			window.onscroll = function() {scrollFunction()};
+
+<?php if($page === 'showlist'){ ?>
+			// When the user scrolls down 20px from the top of the document, show the button (??)
+			window.onscroll = function() {scrollFunction()};
+<?php } ?>
 	
 			$('.regenerate-shows button').on('click', function(){
 				$.post('/ajax/backgroundTask.php');
@@ -27,13 +30,13 @@
 				window.location.href = "/showlist.php?s=s";
 			});
 		});
-//		function scrollFunction() {
-//			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//				document.getElementById("up-button").style.display = "block";
-//			} else {
-//				document.getElementById("up-button").style.display = "none";
-//			}
-//		}
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("up-button").style.display = "block";
+			} else {
+				document.getElementById("up-button").style.display = "none";
+			}
+		}
 		function toTheTop(){
 			document.body.scrollTop = 0; // For Safari
 			document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
