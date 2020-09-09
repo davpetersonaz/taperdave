@@ -1,12 +1,14 @@
 <?php
 logDebug('home');
 $into_offset = 'offset-sm-1 col-sm-10 offset-md-2 col-md-8 offset-lg-3 col-lg-6';
+$images = array('at_mics_budfest2018.jpg', 'at_mics_sci2018.jpg');
+$random_image = Math.rand(1, count($images));
 ?>
 
 <div class='home_page'>
 
 	<div class='feature_image'>
-		<img src='/images/home/at_mics_budfest2018.jpg'>
+		<img src='/images/home/<?=$random_image?>'>
 	</div>
 
 	<div class='intro'>
