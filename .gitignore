@@ -2,6 +2,7 @@
 logs/
 nbproject/
 public_html/ajax/php_errorlog
+public_html/images/wip/
 public_html/php_errorlog
 public_html/temp/
 webstats/
