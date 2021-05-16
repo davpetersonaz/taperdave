@@ -143,7 +143,7 @@ class ReadShowFiles{
 		}
 	}
 	
-	const TXT_FILES_DIR = REAL_PATH.'www/files/';
+	const TXT_FILES_DIR = WWW_DIR.'files/';
 	
 	const AT853 = 4;//AudioTechnica 853s
 	const MATRIX_WITH_AT853 = 9;//SBD + AT853
@@ -159,5 +159,4 @@ class ReadShowFiles{
 
 	private $sources = array();
 	private $db;
-
 }
