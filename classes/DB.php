@@ -74,9 +74,9 @@ class DB extends DBcore{
 		return $this->delete('shows');
 	}
 
-	const DB_TABLES = array('shows');
-	const HOST = 'mysql:host=localhost;dbname=davpeter_taper';
-	const USER = 'davpeter_taper';
-	const PASS = 'mus1cr0cks';
+	const DB_TABLES = array('shows', 'sources');
+	const HOST = 'mysql:host=localhost;dbname=dbmtgd4tjtlkdm';
+	const USER = 'ufuatclejhy1j';
+	const PASS = '~y^i[%k#4Gfs';
 	
 }
