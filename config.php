@@ -28,8 +28,8 @@ if(!function_exists('logDebug')){
 
 doDefine('WWW_DIR', REAL_PATH.'public_html/');
 //paths from public_html/
-doDefine('CSS_URL_PATH', '/css/');
-doDefine('JS_URL_PATH', '/js/');
+doDefine('CSS_URL_PATH', WWW_DIR.'css/');
+doDefine('JS_URL_PATH', WWW_DIR.'js/');
 
 if(!function_exists('ourautoload')){
 	function ourautoload($classname){
