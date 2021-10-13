@@ -1,7 +1,7 @@
 <?php
 logDebug('home');
 $into_offset = 'offset-sm-1 col-sm-10 offset-md-2 col-md-8 offset-lg-3 col-lg-6';
-$images = array('at_mics_budfest2018.jpg', 'at_mics_sci2018.jpg');
+$images = array('at_mics_budfest2018.jpg', 'at_mics_sci2018.jpg', 'gap-fc4-mics1.jpg', 'gapfc4-at853-tandem-mics.jpg');
 $random_image = rand(1, count($images)) - 1;
 ?>
 
