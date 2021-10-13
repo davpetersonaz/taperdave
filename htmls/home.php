@@ -67,7 +67,7 @@ $random_image = rand(1, count($images)) - 1;
 					Generally, the older the recording, the higher the likelihood it might not be 'that great', 
 					I have provided samples of each show so you can take a quick listen before downloading.
 					For your reference, the progression of equipment I have used started with the ZoomH4n, then the ZoomH6 for a brief period, then the ZoomH5,
-					and lately my Audio Technica 853 microphones (which provide better bass definition and overall clarity than the Zoom's mics).
+					then I purchased some good external mics, first were Audio Technica 853 microphones, and most recently my new Golden Age Project FC4 condenser mics.
 				</p>
 			</div>
 		</div>
