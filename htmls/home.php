@@ -88,7 +88,7 @@ $random_image = rand(1, count($images)) - 1;
 	</div>
 	
 	<div class='artist_icons'>
-		<a href='https://taperdave.com/showlist.php?s=y' style='text-decoration:none;'><h3>And On to The Music!</h3></a>
+		<a href='https://taperdave.com/showlist.php?s=y' style='text-decoration:none;' class='text-center'><h3>And On to The Music!</h3></a>
 		<p class='text-center'>here are some of the bands I've taped the most</p>
 		
 		<div class='row'>
