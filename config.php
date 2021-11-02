@@ -1,4 +1,6 @@
 <?php
+require 'vendor/autoload.php';
+
 function doDefine($name, $value){
 	if(!defined($name)){ define($name, $value); }
 }
