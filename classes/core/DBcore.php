@@ -1,4 +1,5 @@
 <?php
+namespace classes\core;
 
 //TODO: this could be updated to match myboydino & comics
 

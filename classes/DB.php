@@ -1,4 +1,6 @@
 <?php
+namespace classes;
+
 class DB extends DBcore{
 
 	function __construct(){
