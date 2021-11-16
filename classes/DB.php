@@ -1,7 +1,5 @@
 <?php
-namespace classes;
-
-class DB extends classes\core\DBcore{
+class DB extends DBcore{
 
 	function __construct(){
 		parent::__construct(self::HOST, self::USER, self::PASS, self::DB_TABLES);

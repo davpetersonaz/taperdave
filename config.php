@@ -35,11 +35,11 @@ doDefine('JS_URL_PATH', WWW_DIR.'js/');
 
 if(!function_exists('ourautoload')){
 	function ourautoload($classname){
-		if(file_exists(REAL_PATH."classes/". $classname .".php")){
-			require_once("classes/". $classname .".php");
-		}
 		if(file_exists(REAL_PATH."classes/core/". $classname .".php")){
 			require_once("classes/core/". $classname .".php");
+		}
+		if(file_exists(REAL_PATH."classes/". $classname .".php")){
+			require_once("classes/". $classname .".php");
 		}
 	}
 }

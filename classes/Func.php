@@ -1,6 +1,4 @@
 <?php
-namespace classes;
-
 class Func{
 	
 	public static function getArrayOfRandomFonts(){

@@ -1,6 +1,4 @@
 <?php
-namespace classes;
-
 class ReadShowFiles{
 
 	public function __construct($db){

@@ -1,6 +1,4 @@
 <?php
-namespace classes;
-
 class GetMegaZips{
 
 	public function runIt(){

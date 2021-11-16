@@ -2,5 +2,5 @@
 	"name": "davpeterson/taperdave",
     "require": {
         "monolog/monolog": "2.0.*"
-    }
+	}
 }
