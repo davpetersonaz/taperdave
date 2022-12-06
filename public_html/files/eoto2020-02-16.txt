@@ -1,0 +1,33 @@
+EOTO
+02-16-20
+WOW Hall
+Eugene, OR
+https://archive.org/details/eoto2020-02-16.GAPs
+https://u.pcloud.link/publink/show?code=XZSzd2VZmvFoNGRGwSjDxvKdN0YnWYhKb1JX
+
+[show] (131:20)
+1. ...banter... (1:44)
+2. improv # > (11:40)
+3. improv # > (13:38)
+4. improv > (14:18)
+5. improv > (5:09)
+6. improv > (5:08)
+7. improv > (4:12)
+8. improv > (7:38)
+9. improv > (9:23)
+10. improv > (12:39)
+11. improv > (11:40)
+12. improv > (11:59)
+13. improv (9:23)
+encore:
+14. improv > (12:49)
+
+The Band:
+Jason Hahn - drums, samples, vocals
+Michael Travis - everything else
+
+# Michael plays the "Dragon Teeth" guitar.
+
+source: Audio-Technica AT853 mics > 4.7k modified mini-xlr-to-headphone y-cable > 25' gold-plated stero-audio cable > ZoomH5 Handy Recorder plugin-power jack > Transcend 700S 285-mb/s 32gb UHS-II U3 class10 V90 SDHC card > audacity > you
+location: FOB, 8' mic stand
+taper: davpeterson
