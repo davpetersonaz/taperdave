@@ -102,7 +102,7 @@ class ReadShowFiles{
 				$possibleLink = trim(fgets($handle));
 				while(!empty($possibleLink)){
 					logDebug('possibleLink: '.$possibleLink);
-					if(strpos($possibleLink, 'my.pcloud.com') !== false || strpos($possibleLink, 'mega.nz') !== false){
+					if(strpos($possibleLink, 'my.pcloud.com') !== false || strpos($possibleLink, 'u.pcloud.link') !== false || strpos($possibleLink, 'mega.nz') !== false){
 						$showInfo['pcloudlink'] = $possibleLink;
 					}elseif(strpos($possibleLink, 'archive.org') !== false){
 						$showInfo['archivelink'] = $possibleLink;
