@@ -145,7 +145,8 @@ class ReadShowFiles{
 	
 	const TXT_FILES_DIR = WWW_DIR.'files/';
 	
-	const AT853 = 4;//AudioTechnica 853s
+	const GAP = 4;//Golden Age Project FC4s
+	const AT853 = 5;//AudioTechnica 853s
 	const MATRIX_WITH_AT853 = 9;//SBD + AT853
 	const MATRIX_WITH_H5 = 10;//SBD + ZoomH5
 	const MATRIX_WITH_H6 = 11;//SBD + ZoomH6
