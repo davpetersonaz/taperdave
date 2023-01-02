@@ -57,6 +57,8 @@ class ReadShowFiles{
 						$showInfo['source'] = self::ZOOMH6;
 					}elseif(strpos($line, 'at853') !== false){
 						$showInfo['source'] = self::AT853;
+					}elseif(strpos($line, 'golden age') !== false){
+						$showInfo['source'] = self::GAP;
 					}elseif(strpos($line, 'mbho') === 0){
 						$showInfo['source'] = self::MBHO;
 					}else{
