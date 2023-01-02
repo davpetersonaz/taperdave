@@ -25,8 +25,8 @@ Jesse Glick - guitar, vocals
 Taylor Brougham - drums, vocals
 Tommy Ohlman - bass, vocals
 
-source: Audio-Technica AT853 cardioid condensor mics > 4.7k modified mini-xlr-to-headphone y-cable > 25' gold-plated stero-audio cable > ZoomH5 Handy Recorder plugin-power jack > Transcend 700S 285-mb/s 32gb UHS-II U3 class10 V90 SDHC card > audacity > you
-location: clamped to the rafters, less than 15' from the band
+source: Golden Age Project FC4 mics > Rockville 100% copper 20' XLR mic cables > ZoomH5 XLR jacks > Transcend 700S 285-mb/s 32gb UHS-II U3 class10 V90 SDHC card > audacity > you
+location: about 40' from stage, 10' mic stand
 taper: davpeterson
 
 SuperBlume is a great jamband from Santa Barbara, check them out!
