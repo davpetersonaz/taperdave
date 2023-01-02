@@ -1,4 +1,4 @@
-samantha fish
+Samantha Fish
 07-02-22
 High Sierra Music Festival
 Big Meadow Stage
@@ -31,4 +31,3 @@ source: Golden Age Project FC4 mics > Rockville 100% copper 20' XLR mic cables >
 location: FOB, 10' mic stand
 taper: davpeterson
 taper notes: bad digi-skip at 0:21 of track 04.
-
