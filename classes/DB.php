@@ -57,8 +57,8 @@ class DB extends DBcore{
 		return ($sources ? $sources : array());
 	}
 
-	public function getMostPopularArtists($numberArtists){
-		$query = 'SELECT COUNT(artist) AS theCount, artist FROM shows GROUP BY artist HAVING theCount>2 ORDER BY theCount DESC';
+	public function getMostPopularArtists($numberArtists=40){
+		$query = 'SELECT COUNT(artist) AS theCount, artist FROM shows GROUP BY artist HAVING theCount>2 ORDER BY theCount DESC LIMIT '.intval($numberArtists);
 		logDebug('query: '.$query);
 		$shows = $this->select($query);
 		if($shows){ 
