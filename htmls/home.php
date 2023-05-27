@@ -63,7 +63,7 @@ $random_image = rand(1, count($images)) - 1;
 			<div class='<?=$into_offset?>'>
 				<p>
 					Keep in mind some recordings are better than others for a variety of reasons 
-					(the microphones, the placement, the room, the soundguy, the amps, etc).
+					(the microphones, the placement, the room, me, the soundguy, the amps, etc).
 					Generally, the older the recording, the higher the likelihood it might not be 'that great', 
 					I have provided samples of each show so you can take a quick listen before downloading.
 					For your reference, the progression of equipment I have used started with the ZoomH4n, then the ZoomH6 for a brief period, then the ZoomH5,
@@ -94,9 +94,10 @@ $random_image = rand(1, count($images)) - 1;
 		<div class='row'>
 
 <?php 
-$popularArtists = $db->getMostPopularArtists(18);
+$popularArtists = $db->getMostPopularArtists();
 //logDebug('popularArtists: '.var_export($popularArtists, true));
 $mostPopular = ($popularArtists ? array_column($popularArtists, 'artist') : array());
+shuffle($mostPopular);
 $numberDisplayed = 0;
 foreach($mostPopular as $name):
 	$logoFilename = Func::getLogoFile($name, '/images/artists/square/');
@@ -110,7 +111,7 @@ foreach($mostPopular as $name):
 				</div>
 			</div>
 <?php 
-	if($numberDisplayed >= 24){
+	if($numberDisplayed >= 18){
 		break;
 	}
 endforeach;
