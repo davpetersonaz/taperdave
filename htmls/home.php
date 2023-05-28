@@ -94,7 +94,7 @@ $random_image = rand(1, count($images)) - 1;
 		<div class='flex-container'>
 
 <?php 
-$popularArtists = $db->getMostPopularArtists();
+$popularArtists = $db->getMostPopularArtistsRandomized(20);
 //logDebug('popularArtists: '.var_export($popularArtists, true));
 $mostPopular = ($popularArtists ? array_column($popularArtists, 'artist') : array());
 shuffle($mostPopular);
@@ -111,9 +111,6 @@ foreach($mostPopular as $name):
 				</div>
 			</div>
 <?php 
-	if($numberDisplayed >= 18){
-		break;
-	}
 endforeach;
 ?>
 		</div>
