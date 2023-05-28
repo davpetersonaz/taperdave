@@ -83,7 +83,7 @@ body > .container-fluid{
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-	max-height: 150px;
+	height: 150px;
 }
 .home_page .artist_icons .row h3,
 .home_page .artist_icons .row p{
