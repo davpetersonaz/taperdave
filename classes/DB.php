@@ -61,9 +61,16 @@ class DB extends DBcore{
 		$query = 'SELECT COUNT(artist) AS theCount, artist FROM shows GROUP BY artist HAVING theCount>2 ORDER BY theCount DESC LIMIT '.intval($numberArtists);
 		logDebug('query: '.$query);
 		$shows = $this->select($query);
+		return ($shows ? $shows : array());
+	}
+	
+	public function getMostPopularArtistsRandomized($numberArtists=40){
+		$query = 'SELECT COUNT(artist) AS theCount, artist FROM shows GROUP BY artist HAVING theCount>2';
+		logDebug('query: '.$query);
+		$shows = $this->select($query);
 		if($shows){ 
 			shuffle($shows); 
-			$shows = array_slice($shows, 0, 18);
+			$shows = array_slice($shows, 0, $numberArtists);
 			return $shows;
 		}else{
 			return array();
