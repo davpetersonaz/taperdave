@@ -81,6 +81,7 @@ body > .container-fluid{
 .home_page .flex-block{
 	align-items: center;
 	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: center;
 }
 .home_page .artist_icons .row h3,
