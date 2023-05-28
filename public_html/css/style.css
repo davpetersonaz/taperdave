@@ -77,11 +77,12 @@ body > .container-fluid{
 }
 .home_page .flex-container{
 	display: flex;
+	max-height: 150px;
 }
 .home_page .flex-block{
 	align-items: center;
 	flex-direction: row;
-	flex-flow: row wrap;
+	flex-wrap: wrap;
 	justify-content: center;
 }
 .home_page .artist_icons .row h3,
