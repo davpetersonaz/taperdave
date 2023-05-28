@@ -75,6 +75,14 @@ body > .container-fluid{
 .home_page .intro p{
 	text-align: left;
 }
+.home_page .flex-container{
+	display: flex;
+}
+.home_page .flex-block{
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+}
 .home_page .artist_icons .row h3,
 .home_page .artist_icons .row p{
 	text-align: center;

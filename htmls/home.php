@@ -91,7 +91,7 @@ $random_image = rand(1, count($images)) - 1;
 		<a href='https://taperdave.com/showlist.php?s=y' style='text-decoration:none;' class='text-center'><h3>And On to The Music!</h3></a>
 		<p class='text-center'>here are some of the bands I've taped the most</p>
 		
-		<div class='row'>
+		<div class='flex-container'>
 
 <?php 
 $popularArtists = $db->getMostPopularArtists();
@@ -103,7 +103,7 @@ foreach($mostPopular as $name):
 	$logoFilename = Func::getLogoFile($name, '/images/artists/square/');
 	$numberDisplayed++;
 	?>
-			<div class='col-xs-12 col-sm-4 col-md-3 col-lg-2'>
+			<div class='flex-block'>
 				<div class='thumbnail'>
 					<a href='/showlist?s=a#<?=str_replace(array('\'', ' ', '-'), '', $name)?>'>
 						<img src='<?=$logoFilename?>' class='img-responsive rounded'>
