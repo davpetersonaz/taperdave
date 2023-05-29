@@ -77,13 +77,10 @@ body > .container-fluid{
 }
 .home_page .flex-container{
 	display: flex;
-}
-.home_page .flex-block{
-	align-items: center;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: center;
-	height: 150px;
+	align-items: center;
+	justify-content: space-around;
 }
 .home_page .artist_icons .row h3,
 .home_page .artist_icons .row p{
@@ -91,22 +88,12 @@ body > .container-fluid{
 	width: 100%;
 }
 .home_page .artist_icons .thumbnail{
-	height: 100%;
-	line-height: 150px; /* height taken from OPs plunker */
 	margin: 0.5em;
-	text-align: center;
-	vertical-align: middle;
-}
-.home_page .artist_icons .thumbnail a{
-	vertical-align: middle;
 }
 .home_page .artist_icons .thumbnail a img{
 	border: 2px black solid;
-	display: inline-block;
-	margin: auto;
-	max-height: 12em;
-	max-width: 100%;
-	vertical-align: middle;
+	max-height: 10em;
+	max-width: 16em;
 }
 /* show-list page */
 div.showlist{
