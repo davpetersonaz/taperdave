@@ -17,4 +17,3 @@ Ahwatukee, AZ
 source: Audio-Technica AT853 mics > 4.7k modified mini-xlr-to-headphone y-cable > 25' gold-plated stero-audio cable > ZoomH5 Handy Recorder plugin-power jack > Transcend 700S 285-mb/s 32gb UHS-II U3 class10 V90 SDHC card > audacity > you
 location: FOB, 10' mic stand
 taper: davpeterson
-

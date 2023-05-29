@@ -1,5 +1,5 @@
 Nigel Hall
-01-23-23
+01-22-23
 McDonald Theater
 Eugene, OR
 https://archive.org/details/NigelHall2023-01-23.GAPs
@@ -15,4 +15,3 @@ Nigel Hall DJ set, warming up the crowd for Lettuce.
 source: Golden Age Project FC4 mics > Rockville 100% copper 20' XLR mic cables > ZoomH5 XLR jacks > Transcend 700S 285-mb/s 32gb UHS-II U3 class10 V90 SDHC card > audacity > you
 location: FOB, 10' mic stand
 taper: davpeterson
-
