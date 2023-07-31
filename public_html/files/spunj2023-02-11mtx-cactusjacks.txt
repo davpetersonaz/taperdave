@@ -1,0 +1,44 @@
+Spunj
+02-11-23
+Cactus Jacks
+Ahwatukee, AZ
+MATRIX
+
+[show] (154:36)
+set 1: 
+1. Out On the Road (10:55)
+2. So Here It Is (10:09)
+3. Love Is the Cure (9:06)
+4. 50 Ways to Leave Your Lover > (5:24)
+5. Buffet > (6:36)
+6. No Pulp (13:05)
+7. ...crowd/banter... (3:28)
+8. Sand # (9:20)
+set 2:
+9. Sanity (14:05)
+10. Why Must You (4:01)
+11. Time (11:57)
+12. ...happy birthday to Iko... (0:53)
+13. What If I (9:43)
+14. Ghost Town (9:01)
+15. Me and Julio Down by the Schoolyard (9:27)
+16. Coffee Filters (10:41)
+17. Coarse Material (5:58)
+encore: 
+18. There's Something (6:47)
+19. Writer's Block Blues (4:00)
+
+The Band:
+Sage - drums
+Josh - guitar
+David - bass, sax
+Daniel - keyboards
+
+# with Scott (from Planck?) on bass, David on sax.
+
+source 1: Golden Age Project FC4 mics > Rockville 100% copper 20' XLR mic cables > ZoomH5 XLR jacks
+source 2: SBD feed > XLR mic cables > ZoomH5 XLR jacks
+lineage: Transcend 700S 285-mb/s 32gb UHS-II U3 class10 V90 SDHC card > audacity > you
+location: FOB, right-side, 20' from stage, 10' mic stand
+taper: davpeterson
+
