@@ -105,12 +105,12 @@ class ReadShowFiles{
 					if(strpos($possibleLink, 'my.pcloud.com') !== false || strpos($possibleLink, 'u.pcloud.link') !== false || strpos($possibleLink, 'mega.nz') !== false){
 						$showInfo['pcloudlink'] = $possibleLink;
 					}else{
-						logDebug('no pcloud link: '.$possibleLink);
+						logDebug('MISSING pcloud link: '.$possibleLink);
 					}
 					if(strpos($possibleLink, 'archive.org') !== false){
 						$showInfo['archivelink'] = $possibleLink;
 					}else{
-						logDebug('no archive link: '.$possibleLink);
+						logDebug('MISSING archive link: '.$possibleLink);
 					}
 					$possibleLink = trim(fgets($handle));
 				}
@@ -128,7 +128,7 @@ class ReadShowFiles{
 				if(file_exists($possibleSampleFilepath)){
 					$showInfo['samplefile'] = $possibleSampleFileUrl;
 				}else{
-					logDebug('no sample file: '.$possibleSampleFilepath);
+					logDebug('MISSING sample file: '.$possibleSampleFilepath);
 					$showInfo['samplefile'] = '';
 				}
 				
