@@ -164,13 +164,14 @@ class ReadShowFiles{
 	
 	const TXT_FILES_DIR = WWW_DIR.'files/';
 	
+	//changing these requires a change to the database as well
 	const GAP = 4;//Golden Age Project FC4s
 	const AT853 = 5;//AudioTechnica 853s
+	const MATRIX_WITH_GAP = 8;//SBD + Golden Age Projects
 	const MATRIX_WITH_AT853 = 9;//SBD + AT853
 	const MATRIX_WITH_H5 = 10;//SBD + ZoomH5
 	const MATRIX_WITH_H6 = 11;//SBD + ZoomH6
 	const MATRIX_WITH_H4 = 12;//SBD + ZoomH4n
-	const MATRIX_WITH_GAP = 13;//SBD + Golden Age Projects
 	const SBD = 20;//Soundboard
 	const MBHO = 25;//MBHO (patched into grout's rig)
 	const OTHER = 29;//other (anything else will probably be better than the Zoom mics)
