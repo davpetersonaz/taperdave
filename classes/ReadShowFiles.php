@@ -101,21 +101,22 @@ class ReadShowFiles{
 				logDebug('city: '.$showInfo['city']);
 				
 				//pcloud/archive links, or blank line
+				$pcloudlink = $archivelink = false;
 				$possibleLink = trim(fgets($handle));
 				while(!empty($possibleLink)){
 					logDebug('possibleLink: '.$possibleLink);
 					if(strpos($possibleLink, 'my.pcloud.com') !== false || strpos($possibleLink, 'u.pcloud.link') !== false || strpos($possibleLink, 'mega.nz') !== false){
 						$showInfo['pcloudlink'] = $possibleLink;
-					}else{
-						logDebug('MISSING pcloud link: '.$possibleLink);
+						$pcloudlink = true;
 					}
 					if(strpos($possibleLink, 'archive.org') !== false){
 						$showInfo['archivelink'] = $possibleLink;
-					}else{
-						logDebug('MISSING archive link: '.$possibleLink);
+						$archivelink = true;
 					}
 					$possibleLink = trim(fgets($handle));
 				}
+				if(!$pcloudlink){ logDebug('MISSING pcloud link: '.$possibleLink); }
+				if($archivelink){ logDebug('MISSING archive link: '.$possibleLink); }
 				
 				//get setlist and sourceinfo
 				$showInfo['setlist'] = '';
