@@ -105,7 +105,7 @@ class ReadShowFiles{
 				$possibleLink = trim(fgets($handle));
 				while(!empty($possibleLink)){
 					logDebug('possibleLink: '.$possibleLink);
-					if(strpos($possibleLink, 'my.pcloud.com') !== false || strpos($possibleLink, 'u.pcloud.link') !== false || strpos($possibleLink, 'mega.nz') !== false){
+					if(strpos($possibleLink, 'my.pcloud.com') !== false || strpos($possibleLink, 'u.pcloud.link') !== false){
 						$showInfo['pcloudlink'] = $possibleLink;
 						$pcloudlink = true;
 					}
@@ -115,8 +115,8 @@ class ReadShowFiles{
 					}
 					$possibleLink = trim(fgets($handle));
 				}
-				if(!$pcloudlink){ logDebug('MISSING pcloud link: '.$possibleLink); }
-				if($archivelink){ logDebug('MISSING archive link: '.$possibleLink); }
+				if(!$pcloudlink){ logDebug('MISSING pcloud link: '.$showInfo['artist'].' '.$showInfo['showdate']); }
+				if(!$archivelink){ logDebug('MISSING archive link: '.$showInfo['artist'].' '.$showInfo['showdate']); }
 				
 				//get setlist and sourceinfo
 				$showInfo['setlist'] = '';
