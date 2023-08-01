@@ -28,9 +28,19 @@ $showdate = $queryArray[2];
 $source = (isset($queryArray[3]) ? $queryArray[3] : false);
 $show = $db->getShowRecord($artist, $showdate, $source);
 $artistLogo = Func::getLogoFile($artist, '/images/artists/square/');
-$artistLogoLink = ($artistLogo ? '<img src="'.$artistLogo.'" class="img img-responsive">' : '<h2>'.$artist.'</h2>');
+if($artistLogo){
+	$artistLogoLink = '<img src="'.$artistLogo.'" class="img img-responsive">';
+}else{
+	logDebug('MISSING: artist logo: '.$artist);
+	$artistLogoLink = '<h2>'.$artist.'</h2>';
+}
 $venueLogo = Func::getLogoFile($show['venue'], '/images/venues/');
-$venueLogoLink = ($venueLogo ? '<img src="'.$venueLogo.'" class="img img-responsive">' : '<h2>'.$show['venue'].'</h2>');
+if($venueLogo){
+	$venueLogoLink = '<img src="'.$venueLogo.'" class="img img-responsive">';
+}else{
+	logDebug('MISSING: venue logo: '.$show['venue']);
+	$venueLogoLink = '<h2>'.$show['venue'].'</h2>';
+}
 $pcloudlink = ($show['pcloudlink'] ? "<p><a href='{$show['pcloudlink']}' class='pcloudlink' target='_blank'>Link to MP3 Download on pCloud</a></p>" : '');
 $archivelink = ($show['archivelink'] ? "<p><a href='{$show['archivelink']}' class='archivelink' target='_blank'>Hi-Quality Download and Streaming on archive.org</a></p>" : '');
 $sampleFilename = Func::getSampleFilename($artist, $showdate, $source);
