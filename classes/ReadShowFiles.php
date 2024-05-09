@@ -164,7 +164,8 @@ class ReadShowFiles{
 	
 	const TXT_FILES_DIR = WWW_DIR.'files/';
 	
-	//changing these requires a change to the database as well
+	//TODO: these should be in the order i want them displayed on the "sort by source" page...
+	//NOTE: changing these requires a change to the database as well
 	const GAP = 4;//Golden Age Project FC4s
 	const AT853 = 5;//AudioTechnica 853s
 	const MATRIX_WITH_GAP = 8;//SBD + Golden Age Projects
