@@ -28,7 +28,7 @@ class DB extends DBcore{
 	}
 	
 	public function getShowsByArtist($ascending=true){
-		$shows = $this->select('SELECT * FROM shows ORDER BY artist '.($ascending?'ASC':'DESC').', showdate DESC');
+		$shows = $this->select('SELECT * FROM shows ORDER BY artist_sort '.($ascending?'ASC':'DESC').', showdate DESC');
 		return ($shows ? $shows : array());
 	}
 	
