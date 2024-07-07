@@ -76,13 +76,13 @@ class ReadShowFiles{
 				$handle = fopen(self::TXT_FILES_DIR.$file, 'r');
 				$showInfo['artist'] = $showInfo['artist_sort'] = trim(fgets($handle));//artist
 				logDebug('artist: '.$showInfo['artist']);
-				if(strtolower(substr($showInfo['artist'], 0, 4) === 'the ')){
+				if(strtolower(substr($showInfo['artist'], 0, 4)) === 'the '){
 					$showInfo['artist_sort'] = substr($showInfo['artist'], 4) + ', The';
 				}else
-				if(strtolower(substr($showInfo['artist'], 0, 2) === 'a ')){
+				if(strtolower(substr($showInfo['artist'], 0, 2)) === 'a '){
 					$showInfo['artist_sort'] = substr($showInfo['artist'], 2) + ', A';
 				}else
-				if(strtolower(substr($showInfo['artist'], 0, 3) === 'an ')){
+				if(strtolower(substr($showInfo['artist'], 0, 3)) === 'an '){
 					$showInfo['artist_sort'] = substr($showInfo['artist'], 3) + ', An';
 				}
 				$dateline = trim(fgets($handle), "'");//date
