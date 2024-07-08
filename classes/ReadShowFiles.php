@@ -77,6 +77,7 @@ class ReadShowFiles{
 				$showInfo['artist_sort'] = trim(fgets($handle));//artist
 				$showInfo['artist'] = $showInfo['artist_sort'];
 				logDebug('artist: '.$showInfo['artist']);
+				logDebug('artist_sort: '.$showInfo['artist_sort']);
 				if(strtolower(substr($showInfo['artist'], 0, 4)) === 'the '){
 					logInfo('');
 					$showInfo['artist_sort'] = substr($showInfo['artist'], 4) + ', The';
@@ -87,6 +88,7 @@ class ReadShowFiles{
 				if(strtolower(substr($showInfo['artist'], 0, 3)) === 'an '){
 					$showInfo['artist_sort'] = substr($showInfo['artist'], 3) + ', An';
 				}
+				logDebug('final artist_sort: '.$showInfo['artist_sort']);
 				$dateline = trim(fgets($handle), "'");//date
 				logDebug('dateline: '.trim($dateline));
 				if(preg_match('/^.*(\d\d)\-(\d\d)\-(\d\d)(.*)$/', $dateline, $matches) === 1){
