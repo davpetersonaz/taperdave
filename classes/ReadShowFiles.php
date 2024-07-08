@@ -85,7 +85,7 @@ class ReadShowFiles{
 				if(strtolower(substr($showInfo['artist'], 0, 3)) === 'an '){
 					$showInfo['artist_sort'] = substr($showInfo['artist'], 3).', An';
 				}
-				logDebug('artist_sort: '.$showInfo['artist_sort']);
+//				logDebug('artist_sort: '.$showInfo['artist_sort']);
 				$dateline = trim(fgets($handle), "'");//date
 				logDebug('dateline: '.trim($dateline));
 				if(preg_match('/^.*(\d\d)\-(\d\d)\-(\d\d)(.*)$/', $dateline, $matches) === 1){
