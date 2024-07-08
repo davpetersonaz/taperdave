@@ -74,9 +74,11 @@ class ReadShowFiles{
 
 				//now get the showdate/venue/city by reading the file line-by-line
 				$handle = fopen(self::TXT_FILES_DIR.$file, 'r');
-				$showInfo['artist'] = $showInfo['artist_sort'] = trim(fgets($handle));//artist
+				$showInfo['artist_sort'] = trim(fgets($handle));//artist
+				$showInfo['artist'] = $showInfo['artist_sort'];
 				logDebug('artist: '.$showInfo['artist']);
 				if(strtolower(substr($showInfo['artist'], 0, 4)) === 'the '){
+					logInfo('');
 					$showInfo['artist_sort'] = substr($showInfo['artist'], 4) + ', The';
 				}else
 				if(strtolower(substr($showInfo['artist'], 0, 2)) === 'a '){
