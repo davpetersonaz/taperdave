@@ -23,7 +23,14 @@ class DB extends DBcore{
 	}
 	
 	public function updateShowRecord($params){
-		$rows_updated = $this->update('UPDATE shows SET artist=:artist, showdate=:showdate, venue=:venue, city=:city, city_state=:city_state, source=:source, setlist=:setlist, pcloudlink=:pcloudlink, archivelink=:archivelink, samplefile=:samplefile WHERE show_id=:show_id', $params);
+		$rows_updated = $this->update('
+				UPDATE shows 
+				SET artist=:artist, artist_sort=:artist_sort, showdate=:showdate, 
+					venue=:venue, city=:city, city_state=:city_state, 
+					source=:source, setlist=:setlist, pcloudlink=:pcloudlink, 
+					archivelink=:archivelink, samplefile=:samplefile 
+				WHERE show_id=:show_id
+			', $params);
 		return $rows_updated;
 	}
 	
