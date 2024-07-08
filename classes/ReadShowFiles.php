@@ -79,8 +79,8 @@ class ReadShowFiles{
 				logDebug('artist: '.$showInfo['artist']);
 				logDebug('artist_sort: '.$showInfo['artist_sort']);
 				if(strtolower(substr($showInfo['artist'], 0, 4)) === 'the '){
-					logInfo('');
 					$showInfo['artist_sort'] = substr($showInfo['artist'], 4) + ', The';
+					logInfo('found THE, artist_sort is '.$showInfo['artist_sort']);
 				}else
 				if(strtolower(substr($showInfo['artist'], 0, 2)) === 'a '){
 					$showInfo['artist_sort'] = substr($showInfo['artist'], 2) + ', A';
