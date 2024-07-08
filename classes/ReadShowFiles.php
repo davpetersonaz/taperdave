@@ -74,21 +74,18 @@ class ReadShowFiles{
 
 				//now get the showdate/venue/city by reading the file line-by-line
 				$handle = fopen(self::TXT_FILES_DIR.$file, 'r');
-				$showInfo['artist_sort'] = trim(fgets($handle));//artist
-				$showInfo['artist'] = $showInfo['artist_sort'];
+				$showInfo['artist'] = $showInfo['artist_sort'] = trim(fgets($handle));//artist
 				logDebug('artist: '.$showInfo['artist']);
-				logDebug('artist_sort: '.$showInfo['artist_sort']);
 				if(strtolower(substr($showInfo['artist'], 0, 4)) === 'the '){
-					$showInfo['artist_sort'] = substr($showInfo['artist'], 4) + ', The';
-					logInfo('found THE, artist_sort is '.$showInfo['artist_sort']);
+					$showInfo['artist_sort'] = substr($showInfo['artist'], 4).', The';
 				}else
 				if(strtolower(substr($showInfo['artist'], 0, 2)) === 'a '){
-					$showInfo['artist_sort'] = substr($showInfo['artist'], 2) + ', A';
+					$showInfo['artist_sort'] = substr($showInfo['artist'], 2).', A';
 				}else
 				if(strtolower(substr($showInfo['artist'], 0, 3)) === 'an '){
-					$showInfo['artist_sort'] = substr($showInfo['artist'], 3) + ', An';
+					$showInfo['artist_sort'] = substr($showInfo['artist'], 3).', An';
 				}
-				logDebug('final artist_sort: '.$showInfo['artist_sort']);
+				logDebug('artist_sort: '.$showInfo['artist_sort']);
 				$dateline = trim(fgets($handle), "'");//date
 				logDebug('dateline: '.trim($dateline));
 				if(preg_match('/^.*(\d\d)\-(\d\d)\-(\d\d)(.*)$/', $dateline, $matches) === 1){
