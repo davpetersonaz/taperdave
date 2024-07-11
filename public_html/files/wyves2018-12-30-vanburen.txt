@@ -3,6 +3,7 @@ Wyves
 The Van Buren
 Phoenix, AZ
 https://u.pcloud.link/publink/show?code=XZ0ARxVZ5iTjHegFI3YWG8RzwM3pupQHCRjk
+https://archive.org/details/wyves2018-12-30
 
 [show] (44:03)
 1. get up and run (5:20)
@@ -20,4 +21,3 @@ opening for Spafford.
 source: Audio-Technica AT853 cardioid condensor mics > 10' flexed mini-xlr extension cable > 4.7k modified mini-xlr-to-headphone y-cable > ZoomH5 Handy Recorder plugin-power jack >	Toshiba Exceria Pro 270-mb/s 32gb SD-HC-II card > audacity > you
 location: left side of SBD, clamped to Matt Varady's micstand (thanks Matt!)
 taper: davpeterson
-
